@@ -77,4 +77,8 @@ A Utilization Factor of 1 indicates that the area of the core is totally occupie
 An Aspect Ratio of 1 indicates that the core is square-shaped.  
 
   ### Pre-Placed Cells
-  A large circuit or netlist can be divided into 2 parts to simplify the connections.
+  A large circuit or netlist can be divided into 2 parts to simplify the connections.  
+  ![](git13.png)
+  These 2 parts are now 2 circuit blocks.  Now we can remove the connections between the 2 different blocks and extend them as I/O pins. These 2 modules can be used separately as modules.
+  These are called Pre-Placed Cells.  
+  ![](git12.png)
