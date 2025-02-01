@@ -57,4 +57,22 @@ Flop Ratio = Number of D Flip Flops / Total Number of cells
 Flop Percentage = Flop Ratio x 100  
                 = 0.1084 x 100  
                 = 10.84  
-                
+
+# Day-2
+## Chip Floor-Planning Considerations
+### Utilization Factor and Aspect Ratio
+Utilization Factor is defined as the total area occupied by the circuit by the total area of the core.  
+Utilization Factor = Total area occupied by circuit / Total area of core  
+The Aspect ratio is defined as the height of the core by width of the core.  
+Aspect ratio = Height / Width  
+Let us take an example of a circuit which occupies 4 sq.units placed in a core of dimensions 2units x 2units.  
+Utilization factor = total area occupied by circuit / total area of core  
+                   = 4 sq.units / 2units x 2 units  
+                   = 4 sq.units / 4 sq.units  
+                   = 1  
+Aspect Ratio = Height / Width   
+             = 2 / 2  
+             = 1  
+A Utilization Factor of 1 indicates that the area of the core is totally occupied and additional components cannot be added.    
+An Aspect Ratio of 1 indicates that the core is square-shaped.  
+
