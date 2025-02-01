@@ -127,4 +127,10 @@ Floorplan run Successfully!!!
     
   ![](git20.png)  
 
-  Viewed Floorplan Successfully!!!
+  Viewed Floorplan Successfully!!!  
+
+  ### Placement
+  Placement is the process of placing all the components on the chip's core. It consists of three steps:  
+  1. Binding the netlist : It is the process of giving physical dimensions to the components.
+  2. Placement : It is the process of placing the components on the core strategically so that they are near their respective Input/Output Pins.
+  3. Optimizing Placement : It is the process of adding Buffers to reduce the risk of data loss when components are placed far from their I/O pins.
