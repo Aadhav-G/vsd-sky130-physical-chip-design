@@ -43,3 +43,7 @@ The process from RTL to GDS contains 6 important steps.They are:
 4. Clock Tree Synthesis : It is the process of creating a Clock distribution network.  
 5. Routing : It is the process of implementing the interconnect using the available metal layers.  
 6. Sign-Off : It is the process of verifying the ASIC by verifying the physical design using 2 methods : Design Rule Checking (DRC), and Layout vs. Schematic (LVS). and verifying the timing with Static Timing Analysis.  
+
+![](git10.png)
+
+###
