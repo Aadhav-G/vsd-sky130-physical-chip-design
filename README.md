@@ -93,3 +93,17 @@ Let us take an example where the physical distance between the power source and 
 When the logic '0' is shifted to logic '1', there is a voltage drop between the power source and the cell. If this drop is a very small amount of voltage, there will be no problem, but when the drop is substantial, the input will not be considered as logic '1'.  
 ![](git15.png)  
 We can solve this problem by adding a decoupling capacitor, whenever the logic shifts from logic '0' to logic '1', the circuit will get the required charge from the capacitor, and whenever the circuit is idle, the capacitor will replenish its charge from the power source
+
+### Power Planning
+Let us take an example where 4 different pre-placed cells connected to decoupling capacitors are connected to a common power source. The output of a certain cell has to deliver the signal to the inverter of another cell through a 16-bit bus.  
+  
+![](git16.png)  
+
+What could go wrong here ?
+The 16-bit bus cannot be connected to the power source as the distance could cause a voltage drop. As a result, when it is connected to the inverter, the decoupling capacitors that are connected to a voltage will discharge all at the same time to ground, and the decoupling capacitors which are discharged will get charged to the voltage all at the same time.  
+Therefore, the capacitors which are discharging will cause a ground bounce and the charging capacitors will cause a voltage drop. This will make the circuit fail.  
+A solution to this is placing many power sources at many points in the chip, so that the 16-bit bus can be connected directly to power wiithout risking a voltage drop.  
+
+![](git17.png)  
+
+This is called Power Planning.
