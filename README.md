@@ -107,3 +107,8 @@ A solution to this is placing many power sources at many points in the chip, so 
 ![](git17.png)  
 
 This is called Power Planning.
+
+### Pin Placement and Logical Cell Placement Blockage
+Pin Placement is nothing but placing the input and output pins of the chip strategically so that cells with connectivity to the same pin can be connected without difficulty.  
+  Logical Cell Placement Blockage is the process of reserving the part where the pins are placed so that cells are not placed mistakenly over there.  
+  
