@@ -76,3 +76,5 @@ Aspect Ratio = Height / Width
 A Utilization Factor of 1 indicates that the area of the core is totally occupied and additional components cannot be added.    
 An Aspect Ratio of 1 indicates that the core is square-shaped.  
 
+  ### Pre-Placed Cells
+  A large circuit or netlist can be divided into 2 parts to simplify the connections.
