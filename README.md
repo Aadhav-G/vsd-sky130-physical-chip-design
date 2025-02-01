@@ -82,4 +82,9 @@ An Aspect Ratio of 1 indicates that the core is square-shaped.
   ![](git13.png)
   These 2 parts are now 2 circuit blocks.  Now we can remove the connections between the 2 different blocks and extend them as I/O pins. These 2 modules can be used separately as IPs (Intellectual Property) or modules.    
     
-  ![](git12.png)
+  ![](git12.png)  
+
+- The arrangement of these IPs in a chip is referred to as floor-planning.
+- These IPs have user-defined locations and hence, are placed in chips before automated placement-and-routing and are known as "Pre-Placed Cells"
+
+  
