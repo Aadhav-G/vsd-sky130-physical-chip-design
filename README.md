@@ -49,3 +49,12 @@ The process from RTL to GDS contains 6 important steps.They are:
 ### OpenLane detailed ASIC design flow
 This is the diagram of the detailed openLANE ASIC design flow.  
 ![](git11.png)   
+
+### Flop Ratio
+Flop Ratio = Number of D Flip Flops / Total Number of cells  
+           = 1613 / 14876  
+           = 0.1084  
+Flop Percentage = Flop Ratio x 100  
+                = 0.1084 x 100  
+                = 10.84  
+                
