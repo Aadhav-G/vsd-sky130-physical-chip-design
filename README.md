@@ -23,4 +23,6 @@ An Instruction Set Architecture (ISA) is a conceptual model that defines how a c
 
 ## From Software to Hardware
 Now let us see how the instructions we give to the computer in a programming language such as C, C++, Java, etc. or from apps are conveyed to the processor.
-![]
+![](git7.png)  
+The Operating System (OS) of the computer consists of a Compiler and an Assembler. When we give inputs from applications or in a programming language, the Compiler converts the code into Instruction files (*.exe files). This is passed into the Assembler, which converts the instruction file in to Binary numbers. This is then fed to the processor which performs the operation.
+  
