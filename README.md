@@ -122,3 +122,9 @@ Pin Placement is nothing but placing the input and output pins of the chip strat
 ![](git19.png)  
 
 Floorplan run Successfully!!!
+
+  ### Viewing Floorplan
+    
+  ![](git20.png)  
+
+  Viewed Floorplan Successfully!!!
