@@ -88,4 +88,8 @@ An Aspect Ratio of 1 indicates that the core is square-shaped.
 - These IPs have user-defined locations and hence, are placed in chips before automated placement-and-routing and are known as "Pre-Placed Cells"
 
 ### Decoupling Capacitors
-
+Let us take an example where the physical distance between the power source and the pre-placed cell is large.  
+![](git14.png)  
+When the logic '0' is shifted to logic '1', there is a voltage drop between the power source and the cell. If this drop is a very small amount of voltage, there will be no problem, but when the drop is substantial, the input will not be considered as logic '1'.  
+![](git15.png)  
+We can solve this problem by adding a decoupling capacitor, whenever the logic shifts from logic '0' to logic '1', the circuit will get the required charge from the capacitor, and whenever the circuit is idle, the capacitor will replenish its charge from the power source
